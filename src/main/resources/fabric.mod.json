@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "boxguard",
+  "version": "${version}",
+  "name": "BoxGuard Admin",
+  "description": "Admin GUI and server-side anti-cheat test utilities for authorized Minecraft servers.",
+  "authors": ["BoxArab"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.boxarab.boxguard.BoxGuard"],
+    "client": ["dev.boxarab.boxguard.client.BoxGuardClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
